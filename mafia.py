@@ -34,7 +34,7 @@ class Mafia(Villager):
 		for townie in village:
 			#select at random random.randint(1, 10)
 			if townie.type = "mafia":
-				mafiaCount++
+				mafiaCount+=1
 			return mafiaCount
 		#count the occurences of mafia
 		
@@ -68,7 +68,7 @@ class Medic(Villager):
 	
 	if count == 0:
 		#random generate a medic player
-		return count ++
+		return count += 1
 	else:
 		#have maximum amount of medics
 	
