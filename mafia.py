@@ -7,8 +7,8 @@ import simplegui
 # do we only need to create one class object and then call other objects created onto it
 
 
-village = [] #[#name: #type]
-villageCasualty = [] #[#name:#type]
+village = {} #[#name: #type]
+villageCasualty = {} #[#name:#type]
 class Villager(Object):
 	# define the class for the villager
 	status = "alive"
